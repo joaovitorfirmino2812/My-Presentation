@@ -1,0 +1,132 @@
+/*Scroll bar--------------------------------------------------------------------------------*/
+html{
+    scroll-behavior: smooth;
+    
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: rgb(107, 114, 244);
+    border-radius: 3px;
+}
+
+body {
+    height: 3500px;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 3% 18% 85% 4% ;
+    
+}
+
+/*MENU-------------------------------------------------------------------------------*/
+#menu {
+    background-color:  rgb(51, 22, 130);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+ul > a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px ;
+}
+
+#hab {
+    border-bottom:  solid rgb(107, 114, 244);
+    
+}
+
+header {
+    width: auto;
+    background-color: white;
+    
+}
+
+h1{
+    margin: 0px;
+}
+
+
+#flatdesign {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+    
+}
+
+#flatdesign > p {
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-right: 50px;
+    
+}
+
+h4 > a {
+    margin-left: 30px;
+    text-decoration: none;
+   
+}
+
+#flatdesign > h4 {
+    margin-top: 340px;
+    margin-right: -240px;
+}
+/*Conteúdo Principal------------------------------------------------------------------------*/
+
+main {
+    background-color:  white;
+}
+
+#primeirasec {
+    height: 25%;
+    background-color:  rgb(51, 22, 130) ;
+    padding-top: 2px;
+
+}
+
+
+#segundasec {
+    height: 25%;
+    background-color: white;
+    border-bottom: 5px solid rgba(7, 7, 77, 0.934) ;
+}
+
+#terceirasec {
+    height: 25%;
+    background-color: white;
+}
+
+
+#quartasec {
+    height: 25%;
+    margin: 0px;
+    background-color: rgba(71, 40, 171, 0.671);
+}
+
+/*Roda pé-------------------------------------------------------------------------------*/
+
+footer {
+
+    background-color: rgb(51, 22, 130) ;
+
+}
+
+footer {
+
+}
