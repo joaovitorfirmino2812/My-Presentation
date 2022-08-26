@@ -26,6 +26,7 @@ body {
 /*MENU-------------------------------------------------------------------------------*/
 #menu {
     background-color:  rgb(51, 22, 130);
+    border-bottom: 8px solid rgb(102, 71, 203);
 }
 
 nav {
@@ -78,14 +79,26 @@ h1{
 }
 
 h4 > a {
-    margin-left: 30px;
+    margin-left: 25px;
     text-decoration: none;
+    padding: 8px 15px; 
+    border-radius: 5px;
+    background-color:rgb(102, 71, 203);
+    color: white;
+    box-shadow: 0px 0px 3px  rgb(51, 22, 130);
    
+}
+h4 > a:hover {
+    background-color: white;
+    color: rgb(102, 71, 203);
+    box-shadow: 0px 0px 5px black;
+    transition: 0.8s;
+
 }
 
 #flatdesign > h4 {
     margin-top: 340px;
-    margin-right: -240px;
+    margin-right: -280px;
 }
 /*Conteúdo Principal------------------------------------------------------------------------*/
 
@@ -97,6 +110,7 @@ main {
     height: 25%;
     background-color:  rgb(51, 22, 130) ;
     padding-top: 2px;
+    border-top: 8px solid rgb(102, 71, 203);
 
 }
 
@@ -117,6 +131,8 @@ main {
     height: 25%;
     margin: 0px;
     background-color: rgba(71, 40, 171, 0.671);
+    padding-top: 7px;
+    border-top: 8px solid rgb(102, 71, 203);
 }
 
 /*Roda pé-------------------------------------------------------------------------------*/
