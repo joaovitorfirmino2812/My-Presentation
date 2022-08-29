@@ -27,6 +27,7 @@ body {
 #menu {
     background-color:  rgb(51, 22, 130);
     border-bottom: 8px solid rgb(102, 71, 203);
+    z-index: 2;
 }
 
 nav {
@@ -44,11 +45,15 @@ ul > a {
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 5px ;
+    padding: 7px;
+    margin-right: 20px ;
+    font-size:smaller;
 }
 
 ul > a:hover{
-    border-bottom: 5px solid rgb(102, 71, 203);
+    padding: 7px;
+    background-color: rgb(102, 71, 203);
+    border-radius: 10px;
 }   
 
 header {
@@ -74,8 +79,25 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     margin-right: 50px;
+   
+}
+
+#flat {
+    animation: fly 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    z-index: 1;
+}
+@keyframes fly {
+    0% {transform: translateY( 0px); }
+    100% {transform: translateY( -30px);}
+}
+
+p {
     
 }
+/*ANIMATION TYPING*/
+
 
 h4 > a {
     margin-left: 25px;
@@ -110,6 +132,8 @@ main {
     background-color:  rgb(51, 22, 130) ;
     padding-top: 2px;
     border-top: 8px solid rgb(102, 71, 203);
+    position: relative;
+    z-index: 3;
 
 }
 
