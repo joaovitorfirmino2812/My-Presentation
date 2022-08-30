@@ -24,9 +24,24 @@ body {
 }
 
 /*MENU-------------------------------------------------------------------------------*/
+.efect{
+    position: relative;
+    right: 400px;
+
+    width: 300px;
+    height: 200px;
+    animation: efeito 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes efeito{
+    0% {background-color: white;}
+    50% { background-color: #c7f9cc;}
+    100% { background-color: #57cc99;}
+}
+
 #menu {
-    background-color:  rgb(51, 22, 130);
-    border-bottom: 8px solid rgb(102, 71, 203);
+    background-color: white;
     z-index: 2;
 }
 
@@ -41,8 +56,16 @@ nav {
     
 }
 
-ul > a {
+#contact {
+    padding: 7px;
     color: white;
+    border-radius: 30px;
+    background-color: #57cc99;
+    box-shadow: 0px 10px 8px #f4f3ee;
+}
+
+ul > a {
+    color: black;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 7px;
@@ -52,8 +75,10 @@ ul > a {
 
 ul > a:hover{
     padding: 7px;
-    background-color: rgb(102, 71, 203);
-    border-radius: 10px;
+    color: white;
+    border-radius: 30px;
+    background-color: #57cc99;
+    box-shadow: 0px 10px 8px #f4f3ee;
 }   
 
 header {
@@ -83,38 +108,46 @@ h1{
 }
 
 #flat {
-    animation: fly 2s;
+    animation: fly 1.8s;
     animation-iteration-count: infinite;
     animation-direction: alternate; 
     z-index: 1;
+    width: 700px;
+    height: 550px;
 }
 @keyframes fly {
     0% {transform: translateY( 0px); }
     100% {transform: translateY( -30px);}
 }
 
-p {
-    
-}
 /*ANIMATION TYPING*/
 
 
-h4 > a {
+h4 > #linkedin {
     margin-left: 25px;
     text-decoration: none;
     padding: 8px 15px; 
-    border-radius: 5px;
-    background-color:rgb(102, 71, 203);
+    border-radius: 30px;
+    background-color:#57cc99;
     color: white;
-    box-shadow: 0px 0px 3px  rgb(51, 22, 130);
+    box-shadow: 0px 10px 8px #f4f3ee;
    
 }
-h4 > a:hover {
-    background-color: white;
-    color: rgb(102, 71, 203);
-    box-shadow: 0px 0px 5px black;
-    transition: 0.8s;
 
+h4 > #github {
+    margin-left: 25px;
+    text-decoration: none;
+    padding: 8px 15px; 
+    border-radius: 30px;
+    background-color: #c7f9cc;
+    color: white;
+    
+
+}
+#github:hover {
+    background-color:#57cc99;
+    box-shadow: 0px 10px 8px #f4f3ee;
+    transition: 0.8s;
 }
 
 #flatdesign > h4 {
@@ -129,9 +162,9 @@ main {
 
 #primeirasec {
     height: 25%;
-    background-color:  rgb(51, 22, 130) ;
+    background-color: #57cc99;
     padding-top: 2px;
-    border-top: 8px solid rgb(102, 71, 203);
+    border-top: 8px solid  #c7f9cc;
     position: relative;
     z-index: 3;
 
@@ -141,7 +174,6 @@ main {
 #segundasec {
     height: 25%;
     background-color: white;
-    border-bottom: 5px solid rgba(7, 7, 77, 0.934) ;
 }
 
 #terceirasec {
@@ -153,15 +185,15 @@ main {
 #quartasec {
     height: 25%;
     margin: 0px;
-    background-color: rgba(71, 40, 171, 0.671);
+    background-color:  #57cc99;
     padding-top: 7px;
-    border-top: 8px solid rgb(102, 71, 203);
+    border-top: 8px solid #c7f9cc;
 }
 
 /*Roda pé-------------------------------------------------------------------------------*/
 
 footer {
 
-    background-color: rgb(51, 22, 130) ;
+    background-color: #4dae84 ;
 
 }
