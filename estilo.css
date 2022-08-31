@@ -9,7 +9,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: rgb(107, 114, 244);
+    background-color: #57cc99;
     border-radius: 3px;
 }
 
@@ -23,9 +23,9 @@ body {
     
 }
 
-/*MENU-------------------------------------------------------------------------------*/
-.efect{
-
+/*TEXT ANIMATION-----------------------------------------------------------*/
+.efect{ 
+    
     position: absolute;
     z-index: 5;
     left: 400px;
@@ -39,8 +39,9 @@ body {
 }
 @keyframes efeito{
     0% {background-color: #57cc99;
-        transform: translateX(-100px);
+        transform: translateX(-150px);
         width: 500px;
+        
     }
     50% { background-color: #c7f9cc;
         transform: translateX(-300px);
@@ -62,6 +63,7 @@ body {
     100% { opacity: 1;}
 }
 
+/*MEBU-----------------------------------------------------------------------*/
 #menu {
     background-color: white;
     z-index: 2;
@@ -139,11 +141,10 @@ h1{
     height: 550px;
 }
 @keyframes fly {
-    0% {transform: translateY( 0px); }
     100% {transform: translateY( -30px);}
 }
 
-/*ANIMATION TYPING*/
+/*ANIMATION Links*/
 
 
 h4 > #linkedin {
