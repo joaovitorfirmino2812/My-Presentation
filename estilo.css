@@ -194,13 +194,13 @@ main {
 
 }
 
-div#text {
+div#text, #text2 {
     display: flex;
     background-color: #4dae84;
     height: 250px;
     width: 700px;
     margin: auto;
-    transform: translateY(15vh);
+    transform: translateY(10px);
     padding: 40px;
     border-radius: 20px;
     color: white;
@@ -208,26 +208,25 @@ div#text {
 
 }
 
-div#imga {
+#text2 {
+    margin-top: 50px;
+    text-align: right;    
+}
+
+div#imga, #imga2 {
     background-color: #c7f9cc;
     height: 300px;
     width: 700px;
     border-radius: 20px;
-    transform: translateY(70px);
+    transform: translateY(30px);
+    box-shadow: 0px -10px 8px #49876c55;
+    
 }
 
-div#nav {
-    display: flex;
-    height: 100px;
-    width: 750px;
-    margin: auto;
-    transform: translateY(100px);
-    justify-content: space-around;
-}
-
-#nav > img {
-    height: 100px;
-    width: 100px;
+#imga2 {
+    transform: translateY(-80px);
+    box-shadow: 0px 10px 8px #49876c8d;
+    
 }
 /*PROJETOS----------------------------------------------------------------------------------*/
 #segundasec {
