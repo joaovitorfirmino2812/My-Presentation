@@ -196,7 +196,7 @@ main {
 
 div#text, #text2 {
     display: flex;
-    background-color: #4dae84;
+    background-color: #57cc99;
     height: 250px;
     width: 700px;
     margin: auto;
@@ -242,7 +242,7 @@ div#imga, #imga2 {
     height: 250px;
     width: 780px;
     margin: auto;
-    background-color: #4dae84;
+    background-color: #57cc99;
     border-radius: 20px;
     box-shadow: 0px 10px 8px #f4f3ee;
 }
@@ -269,12 +269,13 @@ div#imga, #imga2 {
 #biografia {
     width: 750px;
     height: 400px;
-    background-color: #4dae84;
+    background-color: #57cc99;
     margin: auto;
     margin-top: 15vh;
     border-radius: 20px;
     padding-left: 30px;
     transform: translateY(50px);
+    box-shadow: 0px 10px 8px #f4f3ee;
 }
 
 /*CONTATO-----------------------------------------------------------------------------------*/
