@@ -19,7 +19,7 @@ body {
     padding: 0px;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 3% 18% 85% 4% ;
+    grid-template-rows: 3% 18% 75% 4% ;
     
 }
 
@@ -234,6 +234,7 @@ div#imga, #imga2 {
     background-color: white;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 #projeto1, #projeto2, #projeto3 {
@@ -241,8 +242,9 @@ div#imga, #imga2 {
     height: 250px;
     width: 780px;
     margin: auto;
-    background-color: #4dae84;
+    background-color: #57cc99;
     border-radius: 20px;
+    box-shadow: 0px 10px 8px #f4f3ee;
 }
 
 #projeto2 {
@@ -258,12 +260,16 @@ div#imga, #imga2 {
 
 }
 
-
-
 /*SOBRE MIM---------------------------------------------------------------------------------*/
 #terceirasec {
     height: 25%;
     background-color: white;
+}
+
+#biografia {
+    width: 750px;
+    height: 300px;
+    background-color: #57cc99;
 }
 
 /*CONTATO-----------------------------------------------------------------------------------*/
