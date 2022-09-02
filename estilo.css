@@ -232,14 +232,41 @@ div#imga, #imga2 {
 #segundasec {
     height: 25%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
+#projeto1, #projeto2, #projeto3 {
+    display: flex;
+    height: 250px;
+    width: 780px;
+    margin: auto;
+    background-color: #4dae84;
+    border-radius: 20px;
+}
+
+#projeto2 {
+    height: 150px ;
+    width: 500px;
+    transform: translateX(140px);
+}
+
+#projeto3 {
+    height: 150px;
+    width: 500px;
+    transform: translateX(140px);
+
+}
+
+
+
+/*SOBRE MIM---------------------------------------------------------------------------------*/
 #terceirasec {
     height: 25%;
     background-color: white;
 }
 
-
+/*CONTATO-----------------------------------------------------------------------------------*/
 #quartasec {
     height: 25%;
     margin: 0px;
@@ -248,7 +275,7 @@ div#imga, #imga2 {
     border-top: 8px solid #c7f9cc;
 }
 
-/*Roda pé-------------------------------------------------------------------------------*/
+/*Roda pé-----------------------------------------------------------------------------------*/
 
 footer {
 
