@@ -183,7 +183,7 @@ h4 > #github {
 main {
     background-color:  white;
 }
-
+/*HABILIDADES----------------------------------------------------------------------------------*/
 #primeirasec {
     height: 25%;
     background-color: #57cc99;
@@ -194,7 +194,42 @@ main {
 
 }
 
+div#text {
+    display: flex;
+    background-color: #4dae84;
+    height: 250px;
+    width: 700px;
+    margin: auto;
+    transform: translateY(15vh);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+
+div#imga {
+    background-color: #c7f9cc;
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+    transform: translateY(70px);
+}
+
+div#nav {
+    display: flex;
+    height: 100px;
+    width: 750px;
+    margin: auto;
+    transform: translateY(100px);
+    justify-content: space-around;
+}
+
+#nav > img {
+    height: 100px;
+    width: 100px;
+}
+/*PROJETOS----------------------------------------------------------------------------------*/
 #segundasec {
     height: 25%;
     background-color: white;
