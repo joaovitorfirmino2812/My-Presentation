@@ -19,7 +19,7 @@ body {
     padding: 0px;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 3% 18% 75% 4% ;
+    grid-template-rows: 0.4% 18% 75% ;
     
 }
 
@@ -242,7 +242,7 @@ div#imga, #imga2 {
     height: 250px;
     width: 780px;
     margin: auto;
-    background-color: #57cc99;
+    background-color: #4dae84;
     border-radius: 20px;
     box-shadow: 0px 10px 8px #f4f3ee;
 }
@@ -268,14 +268,18 @@ div#imga, #imga2 {
 
 #biografia {
     width: 750px;
-    height: 300px;
-    background-color: #57cc99;
+    height: 400px;
+    background-color: #4dae84;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 20px;
+    padding-left: 30px;
+    transform: translateY(50px);
 }
 
 /*CONTATO-----------------------------------------------------------------------------------*/
 #quartasec {
-    height: 25%;
-    margin: 0px;
+    height: 18%;
     background-color:  #57cc99;
     padding-top: 7px;
     border-top: 8px solid #c7f9cc;
@@ -284,7 +288,6 @@ div#imga, #imga2 {
 /*Roda pé-----------------------------------------------------------------------------------*/
 
 footer {
-
     background-color: #4dae84 ;
 
 }
