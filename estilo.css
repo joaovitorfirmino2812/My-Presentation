@@ -210,7 +210,8 @@ div#text, #text2 {
 
 #text2 {
     margin-top: 50px;
-    text-align: right;    
+    text-align: right;
+    background-color: #4dae84;    
 }
 
 div#imga, #imga2 {
@@ -218,8 +219,8 @@ div#imga, #imga2 {
     height: 300px;
     width: 700px;
     border-radius: 20px;
-    transform: translateY(30px);
-    box-shadow: 0px -10px 8px #49876c55;
+    transform: translateY(20px);
+    box-shadow: 0px 10px 8px #49876c55;
     
 }
 
@@ -229,6 +230,29 @@ div#imga, #imga2 {
     
 }
 
+#imga > h1, #imga2 > h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4dae84;
+}
+
+#imga > img {
+    height: 200px;
+    width: 230px;
+    margin: 10px 45px;
+}
+
+#imga2 > img {
+    height: 220px;
+    width: 250px;
+    margin: 10px 45px;
+
+}
+
+#text > h3 {
+    position: relative;
+    top: 50px;
+}
 /*PROJETOS----------------------------------------------------------------------------------*/
 #segundasec {
     height: 25%;
@@ -236,6 +260,7 @@ div#imga, #imga2 {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    
 }
 
 #projeto1, #projeto2, #projeto3 {
@@ -265,6 +290,15 @@ div#imga, #imga2 {
     padding-left: 30px;
     transform: translateY(50px);
     box-shadow: 0px 10px 8px #f4f3ee;
+
+    
+}
+
+#biografia > h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    transform: translateY(50px);
 }
 
 /*CONTATO-----------------------------------------------------------------------------------*/
