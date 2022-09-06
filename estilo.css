@@ -274,6 +274,11 @@ div#imga, #imga2 {
     margin-top: 20px;
 }
 
+#projeto1 > img {
+    height: 150px;
+    margin: 20px 10px;
+}
+
 /*SOBRE MIM---------------------------------------------------------------------------------*/
 #terceirasec {
     height: 25%;
