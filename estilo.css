@@ -276,7 +276,14 @@ div#imga, #imga2 {
 
 #projeto1 > img {
     height: 150px;
-    margin: 20px 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#projeto1 > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    transform: translateY(20px);
 }
 
 /*SOBRE MIM---------------------------------------------------------------------------------*/
